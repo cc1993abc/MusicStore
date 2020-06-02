@@ -12,6 +12,7 @@ namespace MusicStore.Data
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
             : base(options)
         {
+
         }
         public DbSet<Music> Musics { get; set; }
         public DbSet<Genre> Genres { get; set; }
